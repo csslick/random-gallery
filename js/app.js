@@ -7,6 +7,19 @@ const img_url = [
 
 $(function(){
 
+  // 년/월/일
+  let d = new Date();
+  let year = d.getFullYear();
+  let month = d.getMonth() + 1;
+  let date = d.getDate();
+  console.log(year, month, date);
+
+  // html에 날짜 표시하셈
+  $('.year').html(year);
+  $('.month').html(month);
+  $('.date').html(date);
+
+
   function changeBg() {
     // 0 ~ 2 랜덤값 생성(이미지 번호)
     let imgNum = Math.floor(Math.random() * 3)
