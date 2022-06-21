@@ -5,6 +5,13 @@ const img_url = [
   'images/img03.jpg',
 ];
 
+// 작가정보
+const author = [
+  'Pascal Elpidio',
+  'Jennigje Lutfi',
+  'Nina Valentína'
+]
+
 $(function(){
 
   // 년/월/일
