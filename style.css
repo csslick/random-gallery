@@ -14,7 +14,9 @@ ul {
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  background-image: url('images/img01.jpg');
+  background-image: 
+    url('images/filter-box.png'),
+    url('images/img01.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
