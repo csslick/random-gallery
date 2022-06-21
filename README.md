@@ -1,6 +1,6 @@
 # Random Image Gallery
 ![image](https://user-images.githubusercontent.com/24298382/174710079-537d8da9-d8f8-4244-95e0-94f360dafa15.png)
-
+https://csslick.github.io/random-gallery/
 ## 소개
 - 랜덤하게 이미지가 변경되는 갤러리
 - 시간 표시 기능
