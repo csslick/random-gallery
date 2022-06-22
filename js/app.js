@@ -37,7 +37,14 @@ $(function(){
       background: `url('images/filter-box.png'),
       url(${img_url[imgNum]})`
     })
+
+    // 작가정보
+    $('.author span').html(author[imgNum]);
+
   }
+
+  // 초기값
+  $('.author span').html(author[0]);
 
   // setInterval(함수, 시간ms)
   setInterval(changeBg, 5000);
